@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "vercel-build": "vite build && cd forrest && npm install && npm run build",
     "preview": "vite preview",
     "sanity": "cd forrest && npm run dev",
     "sanity:build": "cd forrest && npm run build",
