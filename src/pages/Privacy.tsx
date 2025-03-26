@@ -42,7 +42,7 @@ const Privacy = () => {
 
             <h2>Data Security</h2>
             <p>
-              We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+              We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction.
             </p>
 
             <h2>Your Rights</h2>

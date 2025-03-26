@@ -11,6 +11,10 @@ import { BlogPost } from './pages/BlogPost';
 import { Privacy } from './pages/Privacy';
 import { Terms } from './pages/Terms';
 import { Breathe } from './pages/Breathe';
+import { HRPolicy } from './pages/HRPolicy';
+import { Tools } from './pages/Tools';
+import { CVGenerator } from './pages/CVGenerator';
+import { InterviewQuestions } from './pages/InterviewQuestions';
 import { NotFound } from './pages/NotFound';
 import ScrollToTop from './components/ScrollToTop';
 import GoogleAnalytics from './components/GoogleAnalytics';
@@ -35,6 +39,11 @@ function App() {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/breathe" element={<Breathe />} />
+            <Route path="/hr-policy" element={<HRPolicy />} />
+            <Route path="/tools" element={<Tools />} />
+            <Route path="/tools/hr-policy" element={<HRPolicy />} />
+            <Route path="/tools/cv-generator" element={<CVGenerator />} />
+            <Route path="/tools/interview-questions" element={<InterviewQuestions />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

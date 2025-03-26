@@ -17,7 +17,6 @@ The Forrest HR website is a comprehensive platform for an HR consulting company 
 - **Styling**: Tailwind CSS
 - **CMS**: Sanity.io
 - **Additional Backend**: Supabase
-- **Deployment**: Configured for Vercel
 
 ## Project Structure
 
@@ -75,17 +74,6 @@ The frontend will be available at http://localhost:5173 and Sanity Studio at htt
 
 ## Deployment
 
-### Deploying to Vercel
-
-Follow the instructions in [docs/vercel-deployment-guide.md](docs/vercel-deployment-guide.md) to deploy the site to Vercel.
-
-Key steps:
-1. Push your code to a Git repository
-2. Import the repository in Vercel
-3. Configure environment variables
-4. Deploy
-5. Configure CORS for Sanity
-
 ### Deploying Sanity Studio
 
 ```bash
@@ -124,7 +112,6 @@ For more details, see [docs/seo-implementation.md](docs/seo-implementation.md).
 
 ## Additional Documentation
 
-- [Vercel Deployment Guide](docs/vercel-deployment-guide.md)
 - [Sanity Setup Guide](docs/sanity-setup-guide.md)
 - [SEO Implementation](docs/seo-implementation.md)
 

@@ -119,7 +119,7 @@ const Services = () => {
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">Strategic HR Solutions</h3>
                       <p className="text-gray-600 max-w-md">
                         Our HR consulting services provide tailored solutions to help your business thrive. 
-                        From organizational development to employee relations, we've got you covered.
+                        From organisational development to employee relations, we've got you covered.
                       </p>
                     </div>
                   </div>

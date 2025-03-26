@@ -4,7 +4,7 @@ import { Facebook, Twitter, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-gradient-to-r from-gray-900 to-primary text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
@@ -74,7 +74,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="w-full bg-primary text-white px-4 py-2 rounded hover:bg-primary/90 transition-colors"
+                className="w-full bg-accent text-white px-4 py-2 rounded hover:bg-accent/90 transition-colors"
               >
                 Subscribe
               </button>
@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
 
         {/* Partner Logos */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
+        <div className="mt-12 pt-8 border-t border-white/20">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             <img
               src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=200"
@@ -108,7 +108,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-800">
+        <div className="mt-12 pt-8 border-t border-white/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400">
               © {new Date().getFullYear()} Forrest HR. All rights reserved.

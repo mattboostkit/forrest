@@ -13,6 +13,7 @@ const Navbar = () => {
     { name: 'Services', href: '/services' },
     { name: 'About', href: '/about' },
     { name: 'Blog', href: '/blog' },
+    { name: 'Tools', href: '/tools' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -42,14 +43,14 @@ const Navbar = () => {
                 to={item.href}
                 className={`${
                   isActive(item.href)
-                    ? 'gradient-text border-primary'
+                    ? 'gradient-text border-secondary'
                     : 'text-gray-600 hover:text-primary border-transparent'
                 } inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium transition-colors duration-200`}
               >
                 {item.name}
               </Link>
             ))}
-            <button className="bg-accent text-primary px-6 py-3 rounded-md text-base font-medium hover:opacity-90 transition-opacity duration-200 shadow-lg">
+            <button className="bg-accent text-white px-6 py-3 rounded-md text-base font-medium hover:bg-accent/90 transition-all duration-200 shadow-lg">
               Book A Free HR Audit
             </button>
           </div>
@@ -85,7 +86,7 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="px-3 py-2">
-              <button className="w-full bg-accent text-primary px-4 py-2 rounded-md text-base font-medium hover:opacity-90 transition-colors duration-200">
+              <button className="w-full bg-accent text-white px-4 py-2 rounded-md text-base font-medium hover:bg-accent/90 transition-all duration-200">
                 Book A Free HR Audit
               </button>
             </div>

@@ -220,7 +220,7 @@ const About = () => {
                 name: 'Emma Richardson',
                 role: 'Managing Director',
                 image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400',
-                bio: 'Emma brings over 20 years of HR leadership experience, driving organizational excellence across multiple industries.',
+                bio: 'Emma brings over 20 years of HR leadership experience, driving organisational excellence across multiple industries.',
                 linkedin: 'https://linkedin.com',
                 email: 'emma.richardson@forresthr.co.uk'
               },

@@ -22,7 +22,11 @@ h1 {
   }
   
   .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  .bg-gradient-custom {
+    @apply bg-gradient-to-r from-primary to-secondary;
   }
 }
 
