@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+@layer base {
+  h1 {
+    @apply tracking-tightest;
+  }
+  
+  body {
+    @apply tracking-tighter-custom font-sans;
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-lg border border-primary-light/30;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80;
+  }
+}
+
+@layer utilities {
+  .tracking-tightest {
+    letter-spacing: -.075em;
+  }
+  
+  .tracking-tighter-custom {
+    letter-spacing: -0.075em;
+  }
+}

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /blog
+Allow: /contact
+Allow: /sitemap.xml
+
+Disallow: /admin
+Disallow: /private
+Disallow: /api
+
+Sitemap: https://forresthr.co.uk/sitemap.xml
