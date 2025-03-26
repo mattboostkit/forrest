@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'primary': '#3C5956',
         'primary-light': '#e5e7eb',
       },
       letterSpacing: {
